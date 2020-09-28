@@ -131,8 +131,8 @@ a {
 /* Blue Area With Buttons */
 
 .border-buttons {
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
   padding-top: 30px;
   background-color: #bdd6d3;
   color: #9e5d3d;
@@ -167,22 +167,23 @@ a {
   padding-right: 120px;
 }
 
-.door-image {
-  height: 600px;
+/* Product Purchase */
+
+.product-purchase {
+  padding-top: 30px;
 }
 
-.description-text {
-  text-align: left;
-  color: black;
+#right-column {
+  padding-right: 200px;
+  padding-top: 50px;
 }
 
-.description-text-2 {
-  text-align: center;
-  color: black;
+.material-style-link {
+  text-decoration: underline;
+  color: #9e5d3d;
 }
 
-.description-text-3 {
-  text-align: center;
+.xmas-text {
   color: red;
 }
 
