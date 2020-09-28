@@ -88,14 +88,6 @@ p {
   text-align: center;
 }
 
-.button-3 {
-  color: #9e5d3d;
-  background-color: white;
-  border: 1px solid #9e5d3d;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 .select {
   text-align: center;
 }
@@ -122,6 +114,7 @@ a {
 .select-product-text {
   padding-top: 40px;
   text-align: center;
+  color: #826c63;
 }
 
 #hardware-text {
@@ -135,21 +128,43 @@ a {
   color: #9e5d3d;
 }
 
-.item-info {
-  /* margin-top: 30px; */
-}
-
-/* .border-selection {
-  background-color: red;
-  height: 210px;
-} */
+/* Blue Area With Buttons */
 
 .border-buttons {
-  /* display: flex;
-    justify-content: space-between; */
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 30px;
   background-color: #bdd6d3;
+  color: #9e5d3d;
   height: 100px;
+}
+
+.button-3 {
+  color: #9e5d3d;
+  background-color: white;
+  border: 1px solid #9e5d3d;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#supernice-button {
+  font-weight: bold;
+}
+
+#blueish-button {
+  font-weight: bold;
+}
+
+.selected-icon-button {
+  height: 25px;
+  padding-bottom: 2.5px;
+}
+
+#clear-all {
+  background-color: #bdd6d3;
+  border: none;
+  text-decoration: underline;
+  padding-right: 120px;
 }
 
 .door-image {
