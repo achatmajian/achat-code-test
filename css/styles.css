@@ -164,10 +164,16 @@ a {
 }
 
 #supernice-button {
+  margin-top: 2px;
   font-weight: bold;
 }
 
+/* #question-mark-icon {
+  margin-bottom: 50px;
+} */
+
 #blueish-button {
+  margin-top: 2px;
   font-weight: bold;
 }
 
@@ -177,6 +183,7 @@ a {
 }
 
 #clear-all {
+  margin-top: 2px;
   background-color: #bdd6d3;
   border: none;
   text-decoration: underline;
