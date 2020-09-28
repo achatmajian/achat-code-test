@@ -258,6 +258,18 @@ a {
   margin-left: 120px;
 }
 
+.button-field {
+  border: 1px solid #9e5d3d;
+  width: 170px;
+  text-align: left;
+}
+
+.button-icon {
+  width: 30px;
+}
+
+/* Production */
+
 #production-bottom {
   margin-bottom: 100px;
   width: 1150px;
@@ -265,13 +277,11 @@ a {
 
 .production-pic {
   height: 150px;
-  padding-left: 200px;
   margin-bottom: 100px;
 }
 
 #production-text {
   text-align: left;
   font-size: 10px;
-  margin-right: 300px;
-  width: auto;
+  color: grey;
 }
