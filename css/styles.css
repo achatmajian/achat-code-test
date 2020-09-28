@@ -1,3 +1,7 @@
+body {
+  min-width: 1500px;
+}
+
 h1 {
   color: #9e5d3d;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -171,6 +175,26 @@ a {
 
 .product-purchase {
   padding-top: 30px;
+}
+
+#big-door-image {
+  height: 900px;
+  margin-bottom: 20px;
+}
+
+#door-thumbnail {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#tailor-made-door {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  height: 70px;
+  width: 700px;
+  text-align: center;
+  margin-left: 80px;
 }
 
 #right-column {
