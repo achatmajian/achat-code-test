@@ -1,0 +1,217 @@
+h1 {
+  color: #9e5d3d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Super Kitchen */
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#super-kitchen {
+  text-align: center;
+  color: #9e5d3d;
+  font-size: x-large;
+}
+
+#kitchen-2 {
+  text-align: center;
+  color: #9e5d3d;
+  font-size: 48px;
+}
+
+#top-lorem {
+  color: gray;
+  padding-bottom: 30px;
+}
+
+.select-kitchen {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#select-kitchen-title {
+  text-align: center;
+  color: #826c63;
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+#button-row {
+  padding-left: 320px;
+  padding-right: 320px;
+}
+
+.button-1 {
+  background-color: #9e5d3d;
+  color: white;
+  border: #9e5d3d;
+  height: 50px;
+  width: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.button-2 {
+  color: #9e5d3d;
+  background-color: white;
+  border: 1px solid #9e5d3d;
+  height: 50px;
+  width: 200px;
+  padding-left: 23px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+#difference-text {
+  padding-top: 30px;
+  text-decoration: underline;
+  font-size: 18px;
+  color: #9e5d3d;
+  text-align: center;
+}
+
+.button-3 {
+  color: #9e5d3d;
+  background-color: white;
+  border: 1px solid #9e5d3d;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.select {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+}
+
+/* Select Product */
+
+.select-product {
+  padding-top: 30px;
+  background-color: #f5f6f0;
+  height: 500px;
+}
+
+#select-product-title {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #826c63;
+  font-size: x-large;
+}
+
+.select-product-text {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#hardware-text {
+  padding-top: 78px;
+}
+
+#understand-plan {
+  padding-top: 40px;
+  text-decoration: underline;
+  font-size: 18px;
+  color: #9e5d3d;
+}
+
+.item-info {
+  /* margin-top: 30px; */
+}
+
+/* .border-selection {
+  background-color: red;
+  height: 210px;
+} */
+
+.border-buttons {
+  /* display: flex;
+    justify-content: space-between; */
+  padding-top: 30px;
+  background-color: #bdd6d3;
+  height: 100px;
+}
+
+.door-image {
+  height: 600px;
+}
+
+.description-text {
+  text-align: left;
+  color: black;
+}
+
+.description-text-2 {
+  text-align: center;
+  color: black;
+}
+
+.description-text-3 {
+  text-align: center;
+  color: red;
+}
+
+.description-text-price {
+  text-align: left;
+  color: black;
+  font-size: 24px;
+}
+
+.dropdown-text {
+  color: black;
+}
+
+.add-cart-button {
+  color: white;
+  background-color: #9e5d3d;
+  border: 1px solid #9e5d3d;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.dropdown-toggle {
+  background-color: white;
+  color: black;
+}
+
+.add-cart-sm {
+  margin-bottom: 60px;
+}
+
+#production-bottom {
+  margin-bottom: 100px;
+  width: 1150px;
+}
+
+.production-pic {
+  height: 150px;
+  padding-left: 200px;
+  margin-bottom: 100px;
+}
+
+#production-text {
+  text-align: left;
+  font-size: 10px;
+  margin-right: 300px;
+  width: auto;
+}
