@@ -193,16 +193,22 @@ a {
   font-size: 24px;
 }
 
-.dropdown-text {
-  color: black;
+.top-2-dropdowns {
+  overflow: hidden;
 }
 
-.add-cart-button {
-  color: white;
-  background-color: #9e5d3d;
+#width-dropdown {
+  float: left;
+}
+
+#height-dropdown {
+  float: right;
+}
+
+.dropdown-toggle {
+  width: 200px;
+  text-align: left;
   border: 1px solid #9e5d3d;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 
 .dropdown-toggle {
@@ -210,8 +216,22 @@ a {
   color: black;
 }
 
-.add-cart-sm {
-  margin-bottom: 60px;
+#blueish {
+  height: 100px;
+}
+
+#add-cart-button {
+  height: 50px;
+  width: 350px;
+  color: white;
+  background-color: #9e5d3d;
+  border: 1px solid #9e5d3d;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+#social-media {
+  margin-left: 120px;
 }
 
 #production-bottom {
