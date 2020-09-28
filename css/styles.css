@@ -159,18 +159,12 @@ a {
   color: #9e5d3d;
   background-color: white;
   border: 1px solid #9e5d3d;
-  /* padding-left: 30px;
-  padding-right: 30px; */
 }
 
 #supernice-button {
   margin-top: 2px;
   font-weight: bold;
 }
-
-/* #question-mark-icon {
-  margin-bottom: 50px;
-} */
 
 #blueish-button {
   margin-top: 2px;
@@ -187,7 +181,6 @@ a {
   background-color: #bdd6d3;
   border: none;
   text-decoration: underline;
-  /* padding-right: 120px; */
 }
 
 /* Product Purchase */
@@ -256,7 +249,6 @@ a {
   height: 10px;
   margin-top: 8px;
   margin-right: 8px;
-  /* border-left: 1px solid #9e5d3d; */
   float: right;
 }
 
@@ -290,22 +282,7 @@ a {
   background-color: #9e5d3d;
   border: 1px solid #9e5d3d;
   margin-bottom: 20px;
-  /* margin-left: 40px; */
 }
-
-/* #social-media {
-  margin-left: 120px;
-} */
-
-/* .button-field {
-  border: 1px solid #9e5d3d;
-  width: 170px;
-  text-align: left;
-}
-
-.button-icon {
-  width: 30px;
-} */
 
 /* Production */
 
