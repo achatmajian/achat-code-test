@@ -135,9 +135,9 @@ a {
 /* Blue Area With Buttons */
 
 .border-buttons {
-  /* padding-left: 200px;
-  padding-right: 200px; */
-  padding-top: 30px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 20px;
   background-color: #bdd6d3;
   color: #9e5d3d;
   height: 100px;
@@ -147,8 +147,8 @@ a {
   color: #9e5d3d;
   background-color: white;
   border: 1px solid #9e5d3d;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
 }
 
 #supernice-button {
@@ -168,7 +168,7 @@ a {
   background-color: #bdd6d3;
   border: none;
   text-decoration: underline;
-  padding-right: 120px;
+  /* padding-right: 120px; */
 }
 
 /* Product Purchase */
@@ -229,6 +229,11 @@ a {
   float: right;
 }
 
+.dropdown-arrow {
+  height: 30px;
+  border: 1px solid #9e5d3d;
+}
+
 .dropdown-toggle {
   width: 200px;
   text-align: left;
@@ -251,14 +256,14 @@ a {
   background-color: #9e5d3d;
   border: 1px solid #9e5d3d;
   margin-bottom: 20px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
-#social-media {
+/* #social-media {
   margin-left: 120px;
-}
+} */
 
-.button-field {
+/* .button-field {
   border: 1px solid #9e5d3d;
   width: 170px;
   text-align: left;
@@ -266,7 +271,7 @@ a {
 
 .button-icon {
   width: 30px;
-}
+} */
 
 /* Production */
 
@@ -282,6 +287,5 @@ a {
 
 #production-text {
   text-align: left;
-  font-size: 10px;
   color: grey;
 }

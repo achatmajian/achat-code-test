@@ -80,22 +80,22 @@
 	<div class="border-section">
 		<div class="row border-buttons">
 			<div class="container">
-			<div class="row">
-			  <div class="col">
-				<button type="button" class="btn button-3" id="supernice-button">SUPERNICE / BORDER
-					<img src="img/filter-arrow-selected.svg" class="selected-icon-button">
-				</button>
-			  </div>
-			  <div class="col">
-				<button type="button" class="btn button-3" id="blueish-button">BLUEISH
-					<img src="img/filter-arrow-selected.svg" class="selected-icon-button">
-				</button>
-			  </div>
-			  <div class="col">
-				<button type="button" class="btn button-3" id="clear-all">CLEAR ALL
-				</button>
-			  </div>
-			</div>
+				<div class="d-flex flex-row justify-content-center">
+                    <div class="p-2">
+						<button type="button" class="btn button-3 text-nowrap" id="supernice-button">SUPERNICE / BORDER
+						<img src="img/filter-arrow-selected.svg" class="selected-icon-button">
+						</button>
+					</div>
+                    <div class="p-2">
+						<button type="button" class="btn button-3 text-nowrap" id="blueish-button">BLUEISH
+                    	<img src="img/filter-arrow-selected.svg" class="selected-icon-button">
+                		</button>
+					</div>
+                    <div class="p-2">
+						<button type="button" class="btn button-3 text-nowrap" id="clear-all">CLEAR ALL
+                	</button>
+					</div>
+                  </div>
 		  </div>
 		</div>
 	</div>
@@ -140,7 +140,6 @@
 						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						  12"
 						</button>
-
 					  </div>
 					  <div class="dropdown" id="height-dropdown" >
 						<p><strong>HEIGHT</strong></p>
@@ -167,7 +166,7 @@
 					</div>
 				  </div>
 				  <!-- Test Button -->
-				  <br>
+				  <!-- <br>
 				  <p><strong>QUANTITY</strong></p>
 				  <div class="btn-group">
 					<button type="button" class="btn button-field">12"</button>
@@ -180,15 +179,25 @@
 						<div class="dropdown-divider"></div>
 						<a href="#" class="dropdown-item">Separated link</a>
 					</div>
-				</div>
+				</div> -->
 				<!-- Test Button -->
 				  <hr>
 				  <div>
 					<img src="img/above-cart.png" id="blueish">
 				</div>
 				<hr>
-				<button type="button" class="btn btn-primary" id="add-cart-button">ADD TO CART</button>
-				<img id="social-media" src="img/share.png" alt="Social Media">
+				<div class="d-flex flex-row justify-content-center">
+					<div class="p-2">
+						<button type="button" class="btn btn-primary" id="add-cart-button">ADD TO CART</button>
+					</div>
+				  </div>
+				  <div class="d-flex flex-row justify-content-center">
+					<div class="p-2">
+						<img id="social-media" src="img/share.png" alt="Social Media">
+					</div>
+				  </div>
+				<!-- <button type="button" class="btn btn-primary" id="add-cart-button">ADD TO CART</button> -->
+				<!-- <img id="social-media" src="img/share.png" alt="Social Media"> -->
 				</div>
 			</div>
 		  </div>
@@ -198,7 +207,17 @@
 
 		<!-- Production -->
 		<div class="container">
-			<div class="row">
+			<div class="d-flex flex-row justify-content-center">
+				<div class="p-2">
+					<img src="img/production.jpg" alt="production" class="production-pic">
+				</div>
+				<div class="p-2" id="production-text">
+					<p style="font-size: 16px; color: black;"><strong>PRODUCTION</strong></p>
+					<p style="font-size: 14px;">2 Weeks</p>
+					<p>Aenean eu semper lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce dui diam, elementum nec dignissim vel, fermentum nec ex. Curabitur et aliquet leo, eget fringilla ante. Ut sed risus est. <br> <br> Phasellus sed nunc facilisis, pharetra nibh nec, blandit nisl. Phasellus fermentum eget enim vel tincidunt. Nam tincidunt massa ac lorem porta dignissim. Cras tempor tempus orci, at aliquam purus ullamcorper in. <br> <br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et orci rhoncus, bibendum sapien quis, pretium orci. Nulla vitae ante vel odio luctus finibus et eget ante. Phasellus id efficitur dui. Quisque semper erat augue, a tincidunt est faucibus pellentesque. </p>
+				</div>
+			  </div>
+			<!-- <div class="row">
 				<div class="col-md-3">
 					<img src="img/production.jpg" alt="production" class="production-pic">
 				</div>
@@ -207,7 +226,7 @@
 					<p style="font-size: 14px;">2 Weeks</p>
 					<p>Aenean eu semper lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce dui diam, elementum nec dignissim vel, fermentum nec ex. Curabitur et aliquet leo, eget fringilla ante. Ut sed risus est. <br> <br> Phasellus sed nunc facilisis, pharetra nibh nec, blandit nisl. Phasellus fermentum eget enim vel tincidunt. Nam tincidunt massa ac lorem porta dignissim. Cras tempor tempus orci, at aliquam purus ullamcorper in. <br> <br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et orci rhoncus, bibendum sapien quis, pretium orci. Nulla vitae ante vel odio luctus finibus et eget ante. Phasellus id efficitur dui. Quisque semper erat augue, a tincidunt est faucibus pellentesque. </p>
 				</div>
-			</div>
+			</div> -->
 			</div>
   </body>
 </html>
